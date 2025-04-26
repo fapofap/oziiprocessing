@@ -15,7 +15,7 @@ classNames = ["head without helmet","head with helmet"]  # Basit bir sınıf ad�
 # FPS hesaplama için değişkenler
 prev_time = time.time()
 fps = 60
-
+#
 while True:
     success, img = cap.read()
     if not success:
