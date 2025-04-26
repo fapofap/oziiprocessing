@@ -12,9 +12,9 @@ video_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 video_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 print(f"Video boyutu: {video_width}x{video_height}")
 
-model = YOLO("yolo11s-pose.pt")
+model = YOLO("hemletYoloV8_100epochs.pt")
 
-classNames = ["Person"]  # Basit bir sınıf adı
+classNames = ["head without helmet","head with helmet"]  # Basit bir sınıf adı
 
 # FPS hesaplama için değişkenler
 prev_time = time.time()
