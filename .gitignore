@@ -1,0 +1,13 @@
+# PyTorch model dosyaları
+*.pt
+
+# Video dosyaları
+*.mp4
+
+# Eğer klasörlerde .pt veya .mp4 varsa, onları da ignore etmek istersen:
+**/*.pt
+**/*.mp4
+
+# (Ekstra) Eğer checkpoints, outputs gibi klasörlerin tamamını ignore etmek istersen:
+# /checkpoints/
+/outputs/
