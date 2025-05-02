@@ -14,7 +14,7 @@ print(f"Video boyutu: {video_width}x{video_height}")
 
 model = YOLO("hemletYoloV8_100epochs.pt")
 
-classNames = ["head without helmet","head with helmet"]  # Basit bir sınıf adı
+classNames = ["head","head with helmet", "person"]  # Basit bir sınıf adı
 
 # FPS hesaplama için değişkenler
 prev_time = time.time()
